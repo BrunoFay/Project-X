@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    background-color: rgb(253, 251, 251);
+  }
+  
+  header {
+    text-align: center;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  #minha_foto {
+    margin-top: 90px;
+    border-radius: 100%;
+    width: 20%;
+    height: 20%;
+  }
+  
+  #licoes_a_aprender {
+    padding: 50px;
+  }
+  
+  #licoes_aprendidas {
+    padding: 50px;
+  }
+  
+  .posilistas :hover {
+    border: black solid;
+    background-color: brown;
+    font-size: large;
+    color: cornsilk;
+    bor
+  }
+  
+  .artigo {
+    width: 50%;
+    color: indigo;
+    font-family: 'Times New Roman', Times, serif; quotes: inherit;
+    font-size: larger;
+    line-height: 20px;
+  }
+  
+  /* na descrição de posição das classes lado-direito,lado-esquerdo e ladoalado; foi
+  utilizado o codigo do léo machado
+   (https://github.com/tryber/sd-016-b-project-lessons-learned/pull/20/commits/103b3d9e3fb1cb6f01d1106e2990086be8e8aea2) como base */
+  
+  .lado-direito {
+    display: inline;
+    width: 300px;
+    margin-left: 2px;
+    float: right;
+    margin-right: 40px;
+  }
+  
+  .lado-esquerdo {
+    float: left;
+    padding: 10px;
+  }
+  
+  .ladoalado {
+    display: inline-block;
+  }
+  
+  #linkyoutube {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: lawngreen;
+    margin: 30px;
+  }
+  
+  #rodape {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  table tr td{
+    border: green solid;
+  }
+  
