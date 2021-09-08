@@ -3,7 +3,7 @@
   }
   
   body {
-    background-color: rgb(253, 251, 251);
+  
   }
   
   header {
@@ -17,8 +17,9 @@
   #minha_foto {
     margin-top: 90px;
     border-radius: 100%;
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 100%;
+    margin-bottom: 60px;
   }
   
   #licoes_a_aprender {
@@ -34,11 +35,11 @@
     background-color: brown;
     font-size: large;
     color: cornsilk;
-    bor
+    
   }
   
   .artigo {
-    width: 50%;
+    width: 35%;
     color: indigo;
     font-family: 'Times New Roman', Times, serif; quotes: inherit;
     font-size: larger;
@@ -52,7 +53,7 @@
   .lado-direito {
     display: inline;
     width: 300px;
-    margin-left: 2px;
+    margin-lef: 2px;
     float: right;
     margin-right: 40px;
   }
@@ -60,10 +61,12 @@
   .lado-esquerdo {
     float: left;
     padding: 10px;
+    
   }
   
   .ladoalado {
     display: inline-block;
+    
   }
   
   #linkyoutube {
@@ -82,8 +85,13 @@
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    border: green solid;
   }
   table tr td{
     border: green solid;
+    
   }
-  
+  .tabeladois{
+    margin-left: 50%;
+  }
+ 
