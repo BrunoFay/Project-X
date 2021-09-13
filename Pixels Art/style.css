@@ -1,0 +1,94 @@
+.body{
+    margin: 0;
+   background-image: url(wallpapersden.com_star-wars-2019_1920x1080.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* colocar imagem no background https://www.youtube.com/watch?v=8OgQEexT2ps */
+}
+#title{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 40px;
+    color:#800000;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #66989a;
+
+}
+.color{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin: 5px;
+    
+    border: black solid 1px;
+    margin-bottom: 10px;
+}
+.pixel{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: black solid 1px;
+    background-color: rgb(255, 255, 255)
+    
+  
+}
+#pixel-board{
+    line-height: 0px;
+  
+    width: max-content;
+}
+ /*butoes inspirados desse site  https://edrodrigues.com.br/blog/20-incriveis-botoes-animados-de-css-puro/ */
+.buttons{
+    width: 80px;
+  height: 40px;
+  cursor: pointer;
+  background: goldenrod;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+  margin: 10px;
+}
+.buttons:hover{
+    transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+.buttons:active{
+    position:relative;
+	top:1px;
+}
+.theGodFather{
+    
+ padding: 0 20%;
+}
+#generate-board{
+    margin-left: 30px;
+}
+#color-palette{
+    margin-top: 30px;
+    /* background-color: khaki; */
+    border-radius: 20px;
+    /* margin-right: 50%;
+    margin-left: 10%; */
+}
+#clear-board{
+    margin-top: 10px;
+    margin-left: 0;
+}
+.input{
+    display: inline-block;
+    margin-left: 5px;
+    
+}
+#board-size{
+    width: 10%;
+    height: 25px;
+    
+}
+#board-size-color{
+    width: 10%;
+    height: 25px;
+}
