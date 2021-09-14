@@ -1,0 +1,113 @@
+.item {
+    background-color: white;
+}
+
+.item.selected {
+    background-color: rgb(128, 128, 128);
+}
+
+.completed {
+    text-decoration: line-through solid rgb(0, 0, 0)
+}
+
+.header {
+    margin-left: 200px;
+}
+#funcionamento{
+    margin-left: 150px;
+}
+#buttons {
+    width: 660px;
+    height: 30px;
+    margin-right: 100%;
+    border: 20px solid orange;
+    border-radius: 100px;
+    background: orange;
+    transition: .6s;
+}
+
+#apaga-tudo {}
+
+
+/* css dos botoes foi baseado nos desse site https://fdossena.com/?p=html5cool/buttons/i.frag */
+.buttonsST {
+    background-color: yellowgreen;
+    display: inline-block;
+    padding: 0.46em 1.6em;
+    border: 0.1em solid #000000;
+    margin: 0 0.2em 0.2em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    text-align: center;
+    transition: all 0.15s;
+}
+
+.buttonsST:hover {
+    text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.buttonsST:active {
+    top: 0.2em;
+}
+
+.input {
+    padding-left: 5%;
+    padding-left: 20px;
+    margin-top: 37px;
+    margin-left: 50px;
+    
+}
+
+#mover-cima:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+}
+
+#mover-baixo:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #f00;
+}
+/* background utilizado desse site https://www.pxfuel.com/pt/free-photo-ebzvk */
+body {
+    background-image: url(https://p1.pxfuel.com/preview/746/910/327/wood-red-yellow-orange.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 300px 10px 300px;
+}
+#texto-tarefa{
+    margin-right: 10px;
+}
+.item{
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 25px;
+    background-color: inherit;
+}
+.item:hover{
+    font-size: x-large;
+    background-color: gray;
+    color: honeydew;
+ 
+    width: 50%;
+}
