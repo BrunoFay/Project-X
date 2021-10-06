@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trybewarts-login {
+  display: flex;
+  margin-right: 25px;
+  background-color: blue;
+}
+
+main {
+  display: flex;
+}
+
+#form-title {
+  margin-left: 15%;
+  margin-top: ;
+  
+}
+
+main form {
+  display: flex;
+  width: 675px;
+}
+
+section input {
+  margin: 0 5px;
+}
+
+main div {
+  margin: 20px 0;
+  justify-content: center;
+}
+
+#main-pag {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+#evaluation-form {
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 5px;
+   
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.trybewarts-header-logo {
+  height: 90px;
+}
+
+#conteudo2 {
+  display: flex;
+  align-items: center;
+  height: 40%;
+  justify-content: space-around;
+}
+
+#Qfamilia div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: brown;
+}
+#Qfamilia{
+  display: flex;
+  flex-direction: column;
+}
+#Qconteudo div {
+  flex-wrap: wrap;
+  height: 100px;
+  margin: 50px 5px;
+  width: 45%;
+}
+
+
+
+#Qconteudo, #Qfamilia {
+  background-color: blueviolet;
+}
+
+#familyRadio{
+  display: flex;
+  flex-flow:wrap;
+  flex-direction: row-reverse;
+}
+
+#avalicao div {
+  display: flex;
+}
+
+#checkboxAvalicao {
+  display: flex;
+}
+
+#textAvalicao {
+  flex-direction: column;
+  margin: 20px 20px;
+}
+
+/* hr {
+  width: 600px;
+} */
+
+.trybewarts-login input {
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+footer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+#submit-btn {
+  width: 100px;
+  margin-left: 40%;
+}
+#name-div,#email-div{
+  margin-left: 100px;
+}
+#trybewarts-header-title{background-color: brown;
+  margin: 0 10% 0 30%;
+  
+
+}
