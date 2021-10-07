@@ -69,15 +69,16 @@ main div {
   justify-content: space-around;
 }
 
-#Qfamilia div {
+ #Qfamilia div {
   display: flex;
   flex-direction: column;
-  width: 50%;
   background-color: brown;
-}
+  justify-content: space-around;
+  
+} 
 #Qfamilia{
   display: flex;
-  flex-direction: column;
+  height: 160px
 }
 #Qconteudo div {
   flex-wrap: wrap;
@@ -89,7 +90,7 @@ main div {
 
 
 #Qconteudo, #Qfamilia {
-  background-color: blueviolet;
+
 }
 
 #familyRadio{

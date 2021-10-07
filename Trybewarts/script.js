@@ -6,7 +6,12 @@ const submitButton = document.getElementById('submit-btn');
 const agreement = document.getElementById('agreement');
 const textArea = document.getElementById('textarea');
 const counter = document.getElementById('counter');
-const mainPag = document.getElementById('main-pag')
+const mainPag = document.getElementById('main-pag');
+const inputName = document.getElementById('input-name');
+const inputSobrenome = document.getElementById('input-lastname');
+const inputRadioFamily = document.querySelector('input[name="family"]:checked').value;
+
+
 // Funções
 function verifyLogin() {
   if (login.value === 'tryber@teste.com' && password.value === '123456') {
@@ -25,14 +30,24 @@ function verifyAgreementSubmitBtn() {
 }
 
 /* ideia de usar o keydown venho atravez de uma discução em uma tread no slack https://trybecourse.slack.com/archives/C02B4PPBERE/p1632408569342700 */
+
+
 function removeFormulario() {
-  var elem = document.getElementById('main-form');
-  elem.parentNode.removeChild(elem);
-  return false;
+  const formMain = document.getElementById('main-form');
+  //elem.parentNode.removeChild(elem);
+  const creatParag = document.createElement('p');
+  //const creatTr = document.createElement('tr')
+  formMain.innerHTML= ''
+  formMain.appendChild(creatParag);
+  creatParag.innerHTML= `casaa  ${inputRadioFamily}  `
+  return ;
 }
+// fazer uma verificação checked para capturar qual dos inputs radios foi selecionado 
+
+
 function writeValuesForm() {
   // capturar todos os imputs e colocar em paragrafos atravez de innerText
-
+  
   
 }
 
