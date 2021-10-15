@@ -9,3 +9,4 @@
 - First project on trybe (just not to forget)
 - Canvas to draw in pixels.
 - Todo List
+- Zoo funtions
