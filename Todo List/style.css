@@ -13,9 +13,11 @@
 .header {
     margin-left: 200px;
 }
-#funcionamento{
+
+#funcionamento {
     margin-left: 150px;
 }
+
 #buttons {
     width: 660px;
     height: 30px;
@@ -28,8 +30,8 @@
 
 #apaga-tudo {}
 
-
 /* css dos botoes foi baseado nos desse site https://fdossena.com/?p=html5cool/buttons/i.frag */
+
 .buttonsST {
     background-color: yellowgreen;
     display: inline-block;
@@ -61,7 +63,6 @@
     padding-left: 20px;
     margin-top: 37px;
     margin-left: 50px;
-    
 }
 
 #mover-cima:before {
@@ -87,27 +88,31 @@
     border-right: 10px solid transparent;
     border-top: 10px solid #f00;
 }
+
 /* background utilizado desse site https://www.pxfuel.com/pt/free-photo-ebzvk */
+
 body {
     background-image: url(https://p1.pxfuel.com/preview/746/910/327/wood-red-yellow-orange.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px 300px 10px 300px;
 }
-#texto-tarefa{
+
+#texto-tarefa {
     margin-right: 10px;
 }
-.item{
+
+.item {
     color: black;
     font-family: monospace;
     font-size: 20px;
     margin-top: 25px;
     background-color: inherit;
 }
-.item:hover{
+
+.item:hover {
     font-size: x-large;
     background-color: gray;
     color: honeydew;
- 
     width: 50%;
 }

@@ -9,8 +9,7 @@ const counter = document.getElementById('counter');
 const mainPag = document.getElementById('main-pag');
 const inputName = document.getElementById('input-name');
 const inputSobrenome = document.getElementById('input-lastname');
-const inputRadioFamily = document.querySelector('input[name="family"]:checked').value;
-
+const radius = document.getElementsByName('family');
 
 // Funções
 function verifyLogin() {
@@ -34,21 +33,28 @@ function verifyAgreementSubmitBtn() {
 
 function removeFormulario() {
   const formMain = document.getElementById('main-form');
-  //elem.parentNode.removeChild(elem);
-  const creatParag = document.createElement('p');
-  //const creatTr = document.createElement('tr')
   formMain.innerHTML= ''
+  const creatParag = document.createElement('p');
   formMain.appendChild(creatParag);
-  creatParag.innerHTML= `casaa  ${inputRadioFamily}  `
-  return ;
+/* 
+  let test = radius
+      .reduce((acc,radio,i)=> (radio[i].checked)?creatParag.innerHTML= `casaa  ${acc[i].value}`:acc,[]) */
+
+ 
+ return console.log( displayRadioValue());
+
 }
 // fazer uma verificação checked para capturar qual dos inputs radios foi selecionado 
 
-
-function writeValuesForm() {
-  // capturar todos os imputs e colocar em paragrafos atravez de innerText
+function displayRadioValue() {
   
-  
+  let rat = 0;
+  radius.forEach((radio) => {
+    if (radio.checked) {
+      rat = radio.value;
+    }
+  });
+  return rat;
 }
 
 function limiteTextArea() {

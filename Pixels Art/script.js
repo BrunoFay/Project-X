@@ -199,4 +199,4 @@ function addColors() {
     creatNewcolor.style.backgroundColor = `rgb(${r},${g},${b})`;
   });
 }
-addColors();
+addColors()
