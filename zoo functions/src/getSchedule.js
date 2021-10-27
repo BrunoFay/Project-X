@@ -51,7 +51,7 @@ function getSchedule(scheduleTarget) {
   }
 }
 
-console.log(getSchedule('Sunday'));
+console.log(getSchedule('lions'));
 // console.log(Object.keys(hours));
 module.exports = getSchedule;
 

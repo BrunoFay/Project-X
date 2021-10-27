@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.5",
+    "nodemon": "^2.0.14"
+  },
+  "name": "superherois",
+  "version": "1.0.0",
+  "main": "hero.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

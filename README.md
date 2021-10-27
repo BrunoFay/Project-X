@@ -10,3 +10,4 @@
 - Canvas to draw in pixels.
 - Todo List
 - Zoo funtions
+- Shopping cart
