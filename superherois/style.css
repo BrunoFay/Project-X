@@ -1,0 +1,138 @@
+*{
+  margin: 0%;
+  
+}
+body{
+  background: rgb(174,184,238);
+  background: radial-gradient(circle, rgba(174,184,238,1) 18%, rgba(2,15,31,1) 100%);
+}
+
+header {
+  text-align: center;
+}
+
+
+ol{
+  display: block;
+  width: auto;
+  height: 50%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background-color: white;
+  box-shadow: inset 0 0 1px, 0 0 5px black;
+  
+  
+}
+#test{
+  margin: 15px;
+}
+
+#input{
+  margin:  5% 0 2% 40%; 
+  height: 25px;
+  font-size: larger;
+  border-radius: 2px;
+  
+  box-shadow: inset 0 0 1px, 0 0 5px black;
+  
+}
+
+.buttonP{
+  background-color: #ddd;
+  border-radius: 36px;
+  cursor: pointer;
+  height: 30px;
+  width: 100px;
+  color: white;
+  z-index: 1;
+  transition: 1.2s;
+  background: linear-gradient(to left bottom, #4776E6, #8E54E9);
+  margin: 0 0 5px 20px;
+}
+
+
+.items {
+  display: flex;
+  flex-basis: 70%;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: medium;
+  color: #faf3dd;
+}
+
+.item {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(14,6,6,1) 0%, rgba(154,100,100,1) 50%, rgba(128,106,76,1) 100%);
+  border: 2px solid rgb(205, 205, 235);
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 470px;
+  margin: 7px;
+   box-shadow: inset 0 0 1px, 0 0 5px rgb(205, 205, 235);
+  
+}
+
+
+.item .title-card {
+  flex-grow: 1;
+  text-align: center;
+  height: 100px;
+  padding-top: 10px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cfdbd5;
+  
+}
+
+.item .hero-image {
+  
+  height: 300px;
+
+}
+.favorite-image{
+ max-height: 100px;
+}
+.item .item__add {
+  background-color: #F1F1F1;
+ border-radius: 20px;
+  border-color: red;
+  cursor: pointer;
+  margin: 0 0 0 80%;
+  padding: 5px;
+  width: 20%;
+  color: rgba(0, 0, 0, 0.74);
+  font-size: medium;
+  
+}
+
+
+
+.cart {
+  display: flex;
+  flex-basis: 30%;
+  flex-flow: column ;
+  color: rgb(102, 102, 102);
+  margin-right: 15px;
+opacity: 2;
+}
+
+.cart .cart__title {
+  flex-basis: 1;
+  font-size: 16pt;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.cart__item{
+  height: auto;
+  width: 250px;
+margin-left: 10%;
+}
+.hero-stats{
+margin: 2px 40px;
+text-align: center;
+background: rgb(204,101,47);
+background: linear-gradient(0deg, rgba(204,101,47,1) 0%, rgba(98,52,159,1) 83%);
+border-radius: 3px;
+}
