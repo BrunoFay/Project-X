@@ -11,3 +11,4 @@
 - Todo List
 - Zoo funtions
 - Shopping cart
+- Heroes Cards
