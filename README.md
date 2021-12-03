@@ -6,9 +6,7 @@
 - Age calculator based on current year and year of birth.
 
 ### JavaScript.
-- First project on trybe (just not to forget)
 - Canvas to draw in pixels.
 - Todo List
-- Zoo funtions
 - Shopping cart
 - Heroes Cards
